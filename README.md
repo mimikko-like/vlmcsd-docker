@@ -17,6 +17,8 @@ docker run -idt -p 1688:1688 vlmcsd
 
 激活代码
 新建文本文档，后缀该为bat，代码内容：
+```bash
 slmgr /skms ip:1688
 slmgr /ato
 slmgr.vbs -dlv
+```
