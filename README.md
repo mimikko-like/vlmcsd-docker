@@ -12,7 +12,7 @@ docker-compose up -d
 
 # or docker build image
 docker build -t vlmcsd .
-docker run -idt -p 1688:1688 vlmcsd
+docker run -idt --restart=unless-stopped -p 1688:1688 vlmcsd
 ```
 
 
